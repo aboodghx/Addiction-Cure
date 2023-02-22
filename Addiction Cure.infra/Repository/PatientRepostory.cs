@@ -57,5 +57,13 @@ namespace Addiction_Cure.infra.Repository
             p.Add("roleidac", patient.Login.Roleid, dbType: DbType.Int32, ParameterDirection.Input);
             var result = dBContext.Connection.Execute("patientac_package.Updatepatient", p, commandType: CommandType.StoredProcedure);
         }
+
+        //delete
+        public void Delete(int patientid)
+        {
+            var p = new DynamicParameters();
+            p.Add("Id", patientid, dbType: DbType.Int32, ParameterDirection.Input);
+            var result = dBContext.Connection.Execute("patientac_package.Deletepatient", p, commandType: CommandType.StoredProcedure);
+        }
     }
 }

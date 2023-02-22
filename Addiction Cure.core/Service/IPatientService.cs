@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Addiction_Cure.core.Repository
+namespace Addiction_Cure.core.Service
 {
-    public interface IPatientRepostory
+    public interface IPatientService
     {
         List<Patientac> GetAllPatient();
         void createpatient(Patientac patient);

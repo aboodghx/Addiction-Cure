@@ -36,6 +36,9 @@ namespace Addiction_Cure
             services.AddScoped<ILoginRepository, LoginRepository>();
             services.AddScoped<ILoginService, LoginService>();
             services.AddScoped<IPatientRepostory, PatientRepostory>();
+            services.AddScoped<IPatientService, PatientService>();
+            services.AddScoped<IDoctorRepository, DoctorRepository>();
+            services.AddScoped<IDoctorService, DoctorService>();
             services.AddControllers();
         }
 
