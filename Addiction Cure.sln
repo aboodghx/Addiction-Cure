@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addiction Cure.api", "Addiction Cure\Addiction Cure.api.csproj", "{24CD02E0-2726-49C4-ACF5-F057C8B503AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addiction Cure.api", "Addiction Cure\Addiction Cure.api.csproj", "{24CD02E0-2726-49C4-ACF5-F057C8B503AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addiction Cure.infra", "Addiction Cure.infra\Addiction Cure.infra.csproj", "{F848E556-2326-4B5D-B6D3-79B6E2096250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addiction Cure.infra", "Addiction Cure.infra\Addiction Cure.infra.csproj", "{F848E556-2326-4B5D-B6D3-79B6E2096250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addiction Cure.core", "Addiction Cure.core\Addiction Cure.core.csproj", "{20DFA5BA-4195-49A6-B873-CC5B2BA59336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addiction Cure.core", "Addiction Cure.core\Addiction Cure.core.csproj", "{20DFA5BA-4195-49A6-B873-CC5B2BA59336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
