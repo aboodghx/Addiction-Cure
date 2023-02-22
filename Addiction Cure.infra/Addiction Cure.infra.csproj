@@ -10,9 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="Repository\" />
-    <Folder Include="Service\" />
   </ItemGroup>
 
   <ItemGroup>

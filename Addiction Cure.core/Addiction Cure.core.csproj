@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="DTO\" />
-    <Folder Include="Service\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 

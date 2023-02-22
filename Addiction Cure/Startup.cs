@@ -1,7 +1,14 @@
+using Addiction_Cure.core.Repository;
+using Addiction_Cure.core.Service;
+using Addiction_Cure.infra.Repository;
+using Addiction_Cure.infra.Service;
+using LMS.Core.Common;
+using LMS.Infra.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +32,10 @@ namespace Addiction_Cure
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IDBContext, DBContext>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
+            services.AddScoped<ILoginService, LoginService>();
+            services.AddScoped<IPatientRepostory, PatientRepostory>();
             services.AddControllers();
         }
 
